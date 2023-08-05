@@ -1,0 +1,16 @@
+mode_name BCful
+mass_frac aero_emit_comp_BC.dat # composition proportions of species
+diam_type geometric             # type of diameter specified
+mode_type log_normal            # type of distribution
+num_conc 8.00E+07              # particle number concentration (#/m^2)
+geom_mean_diam 7e-8             # geometric mean diameter (m)
+log10_geom_std_dev 0.114         # log_10 of geometric std dev of diameter
+
+mode_name BCfree
+mass_frac aero_emit_comp_BCfree.dat # composition proportions of species
+diam_type geometric             # type of diameter specified
+mode_type log_normal            # type of distribution
+num_conc 1.00E+8               # particle number concentration (#/m^2)
+geom_mean_diam 1.10e-7          # geometric mean diameter (m)
+log10_geom_std_dev 0.23         # log_10 of geometric std dev of diameter
+
